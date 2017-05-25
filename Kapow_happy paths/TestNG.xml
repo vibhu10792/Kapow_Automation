@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Project_Android" >
+ <test name="Project_Automation" >
+  <classes>
+   <class name="Functional" />
+  
+  </classes>
+ </test>
+</suite>

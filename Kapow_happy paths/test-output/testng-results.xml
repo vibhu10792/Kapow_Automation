@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="84404" started-at="2017-05-08T07:50:32Z" finished-at="2017-05-08T07:51:56Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="84404" started-at="2017-05-08T07:50:32Z" finished-at="2017-05-08T07:51:56Z">
+      <class name="Functional">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Functional@3f0ee7cb]" name="setUp" is-config="true" duration-ms="31376" started-at="2017-05-08T13:20:32Z" finished-at="2017-05-08T13:21:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Verify_blank_mail()[pri:0, instance:Functional@3f0ee7cb]" name="Verify_blank_mail" duration-ms="5530" started-at="2017-05-08T13:21:03Z" finished-at="2017-05-08T13:21:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_blank_mail -->
+        <test-method status="PASS" signature="Verify_blank_name()[pri:0, instance:Functional@3f0ee7cb]" name="Verify_blank_name" duration-ms="10481" started-at="2017-05-08T13:21:09Z" finished-at="2017-05-08T13:21:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_blank_name -->
+        <test-method status="PASS" signature="Verify_country_code()[pri:0, instance:Functional@3f0ee7cb]" name="Verify_country_code" duration-ms="6239" started-at="2017-05-08T13:21:19Z" finished-at="2017-05-08T13:21:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_country_code -->
+        <test-method status="PASS" signature="Verify_mail()[pri:0, instance:Functional@3f0ee7cb]" name="Verify_mail" duration-ms="6197" started-at="2017-05-08T13:21:26Z" finished-at="2017-05-08T13:21:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_mail -->
+        <test-method status="PASS" signature="Verify_name()[pri:0, instance:Functional@3f0ee7cb]" name="Verify_name" duration-ms="14216" started-at="2017-05-08T13:21:32Z" finished-at="2017-05-08T13:21:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_name -->
+        <test-method status="PASS" signature="Verify_updated_mail()[pri:0, instance:Functional@3f0ee7cb]" name="Verify_updated_mail" duration-ms="579" started-at="2017-05-08T13:21:46Z" finished-at="2017-05-08T13:21:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_updated_mail -->
+        <test-method status="PASS" signature="Verify_updated_name()[pri:0, instance:Functional@3f0ee7cb]" name="Verify_updated_name" duration-ms="215" started-at="2017-05-08T13:21:47Z" finished-at="2017-05-08T13:21:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_updated_name -->
+        <test-method status="PASS" signature="verify_blank_number()[pri:0, instance:Functional@3f0ee7cb]" name="verify_blank_number" duration-ms="3458" started-at="2017-05-08T13:21:47Z" finished-at="2017-05-08T13:21:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_blank_number -->
+        <test-method status="PASS" signature="Enter_number()[pri:0, instance:Functional@3f0ee7cb]" name="Enter_number" is-config="true" duration-ms="6077" started-at="2017-05-08T13:21:50Z" finished-at="2017-05-08T13:21:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Enter_number -->
+      </class> <!-- Functional -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
