@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Splash">
+    <classes>
+      <class name="Test.Splash_Menu_Test"/>
+      <class name="Test.Login_Test"/>
+    </classes>
+  </test> <!-- Splash -->
+  <test name="Splash(failed)">
+    <classes>
+      <class name="Test.Login_Test">
+        <methods>
+          <include name="Verify_Positive_Login_Scenario"/>
+          <include name="Verify_Neagtive_Login_Scenario"/>
+        </methods>
+      </class> <!-- Test.Login_Test -->
+      <class name="Test.Splash_Menu_Test">
+        <methods>
+          <include name="verify_Menu_Item_3"/>
+          <include name="verify_Menu_Item_1"/>
+          <include name="Pre_condition"/>
+          <include name="setUp"/>
+          <include name="Verify_Go_To_Map_Btn"/>
+          <include name="verify_Menu_Item_4"/>
+          <include name="verify_Menu_Btn"/>
+          <include name="verify_Menu_Item_2"/>
+        </methods>
+      </class> <!-- Test.Splash_Menu_Test -->
+    </classes>
+  </test> <!-- Splash(failed) -->
+</suite> <!-- Failed suite [Suite] -->
